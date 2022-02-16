@@ -68,6 +68,7 @@
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
+
         android:id="@+id/card_dale"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -78,8 +79,8 @@
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:outlineAmbientShadowColor="#166BFA"
-        android:outlineSpotShadowColor="#166BFA"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineSpotShadowColor="@android:color/transparent"
         app:cardElevation="5dp"
         tools:ignore="UnusedAttribute">
 
@@ -87,13 +88,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="25sp"
-            android:textColor="@color/white"
+            android:textColor="@android:color/transparent"
             android:textStyle="bold"
             android:gravity="center"
             android:text="Davom etish"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
-            android:background="#166BFA"
+            android:background="@android:color/transparent"
             tools:ignore="HardcodedText" />
 
     </androidx.cardview.widget.CardView>
@@ -109,20 +110,20 @@
         android:layout_marginBottom="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="32dp"
-        android:outlineAmbientShadowColor="#99BDFB"
-        android:outlineSpotShadowColor="#99BDFB"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineSpotShadowColor="@android:color/transparent"
         app:cardElevation="5dp"
         tools:ignore="UnusedAttribute">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#99BDFB"
+            android:background="@android:color/transparent"
             android:gravity="center"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             android:text="O'tkazib yuborish"
-            android:textColor="@color/white"
+            android:textColor="@android:color/transparent"
             android:textSize="25sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText,TextContrastCheck" />
